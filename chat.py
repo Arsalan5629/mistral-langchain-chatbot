@@ -5,7 +5,7 @@ load_dotenv()
 
 model = ChatMistralAI(
     model_name="mistral-small-2506",
-    api_key="S4vlDbyPQoK1NI9osGYUzmTwOf7MPe0C"
+    api_key="Your API Key Here"
 )
 
 response = model.invoke("Explain Machine learnign")
